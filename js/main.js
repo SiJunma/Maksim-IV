@@ -51,10 +51,12 @@ $( document ).ready(function() {
       breakpoints: {
         1599: {
           width: '90%',
+          perMove: 1,
         },
         1399: {
           perPage: 2,
           width: '90%',
+          perMove: 1,
         },
       }
     } );
