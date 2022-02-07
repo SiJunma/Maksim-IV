@@ -58,6 +58,12 @@ $( document ).ready(function() {
           width: '90%',
           perMove: 1,
         },
+        991: {
+          perPage: 1,
+          width: 'calc(90% - 30px)',
+          perMove: 1,
+          autoHeight: true,
+        },
       }
     } );
     

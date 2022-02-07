@@ -435,7 +435,102 @@
 }
 
 @media screen and (max-width: 991px) {
+    h2 {
+        margin-bottom: 40px;
+    }
 
+    .nav .vr {
+        margin: auto 15px;
+        margin-left: 30px;
+    }
+
+    .header {
+        &__offer {
+            h1 {
+                font-size: 50px;
+            }
+        }
+
+        &__offer-small {
+            font-size: 40px;
+        }
+    }
+
+    .benefits {
+        &__card {
+            margin-bottom: 25px;
+            height: auto;
+        }
+
+        &__bg {
+            margin-top: -117px;
+            margin-bottom: -90px;
+        }
+    }
+
+    .steps {
+        padding-top: 105px;
+        padding-bottom: 45px;
+    }
+
+    .consultation {
+        padding-top: 180px;
+        padding-bottom: 180px;
+
+        &__bg {
+            width: 790px;
+            object-position: 9em -2em;
+        }
+
+        &__offer {
+            padding-left: 0;
+        }
+
+        &__offer-big {
+            font-size: 42px;
+        }
+
+        &__offer-small {
+            font-size: 32px;
+        }
+    }
+
+    .services {
+        padding-bottom: 110px;
+
+        &::after {
+            width: 589px;
+            height: 568px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+    }
+
+    .steps {
+        h2 {
+            margin-bottom: 50px;
+        }
+    }
+
+    .reviews {
+        padding-top: 20px;
+        padding-bottom: 85px;
+
+        h2 {
+            margin-bottom: 65px;
+        }
+    }
+
+    .faq {
+        padding-bottom: 110px;
+
+        &:after {
+            width: 609px;
+            height: 501px;
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
