@@ -4,6 +4,198 @@
     }
 }
 
+@media screen and (max-width: 1899px) {
+    .consultation__bg {
+        object-position: 9em;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    h2 {
+        font-size: 48px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .consultation {
+        padding-top: 260px;
+
+        &__bg {
+            object-position: 14em -4em;
+        }
+
+        &__offer-big {
+            font-size: 60px;
+        }
+
+        &__offer-small {
+            font-size: 40px;
+        }
+    }
+
+    .header__offer {
+        &-small {
+            font-size: 55px;
+        }
+
+        h1 {
+            font-size: 70px;
+        }
+    }
+
+    .form .card-body {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        h3 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .contacts__item {
+        font-size: 22px;
+
+        svg, img {
+            max-width: 29px;
+        }
+    }
+
+    .benefits {
+        padding-top: 155px;
+
+        &__card {
+            padding: 40px 25px 30px;
+
+            h5 {
+                margin-bottom: 35px;
+                margin-top: 20px;
+            }
+
+            img {
+                max-height: 105px;
+            }
+        }
+
+        &::after {
+            display: none;
+        }
+
+        &__bg {
+            margin-top: -147px;
+            margin-bottom: -120px;
+        }
+    }
+
+    .services {
+        padding-bottom: 200px;
+
+        h2 {
+            margin-bottom: 60px;
+        }
+
+        &__card {
+            padding: 40px 2.5em 25px;
+            min-height: 330px;
+        }
+    }
+
+    .reviews {
+        padding-bottom: 115px;
+        padding-top: 40px;
+
+        h2 {
+            margin-bottom: 75px;
+        }
+
+        &__card {
+            padding: 0 25px 40px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__proff {
+            font-size: 18px;
+        }
+
+        &__name {
+            font-size: 28px;
+        }
+
+        &__av {
+            width: 128px;
+            height: 128px;
+            margin-bottom: 6px;
+        }
+
+        &__splide .splide__arrows .splide__arrow {
+            width: 29px;
+            height: 44px;
+        }
+    }
+
+    .faq {
+        padding-bottom: 170px;
+
+        h2 {
+            margin-bottom: 60px;
+        }
+
+        .custom-accordion__panel {
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        .custom-accordion__btn.active h6 {
+            margin-bottom: 30px;
+        }
+
+        .custom-accordion__btn h6 {
+            font-size: 30px;
+        }
+    }
+
+    .contactus {
+        &__list {
+            li {
+                font-size: 26px;
+
+                svg,img {
+                    width: 32px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding-bottom: 50px;
+        padding-top: 30px;
+
+        &__nav {
+            margin-bottom: 35px;
+
+            li {
+                margin: 20px 30px;
+                font-size: 18px;
+            }
+        }
+
+        &__copy {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 1399px) {
+
+}
+
 @media screen and (max-width: 1199px) {
 
 }

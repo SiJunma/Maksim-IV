@@ -40,13 +40,22 @@ $( document ).ready(function() {
   };
   btnClose('.popup__close');
 
+  //Rewievs slider
   let splide = new Splide( '.reviews__splide', {
       perPage: 3,
       rewind : true,
       perMove: 1,
+      width: '100%',
       gap: '2rem',
-      focus  : 'center',
       type: 'loop',
+      breakpoints: {
+        1599: {
+          width: '90%',
+        },
+        1399: {
+          perPage: 2,
+        },
+      }
     } );
     
   splide.mount();

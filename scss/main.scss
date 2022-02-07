@@ -211,13 +211,19 @@ h5 {
 
     img, svg {
         margin-right: 25px;
+        object-fit: contain;
     }
 }
 
 .contacts {
     &__item {
+        display: flex;
+        align-items: center;
+
         img, svg {
             margin-right: 10px;
+            object-fit: contain;
+            flex-shrink: 0;
         }
 
         font-weight: 500;
@@ -358,6 +364,7 @@ h5 {
             max-width: 140px;
             max-height: 115px;
             margin-bottom: auto;
+            object-fit: contain;
         }
 
         h5 {
@@ -388,7 +395,7 @@ h5 {
         background-size: cover;
         background-repeat: no-repeat;
         background-image: url('../img/services__bg.png');
-        z-index: -2;
+        z-index: -3;
     }
 
     h2 {
@@ -520,8 +527,8 @@ h5 {
         right: 0;
         top: 0;
         z-index: -1;
-        background-size: cover;
-        background-position: top right;
+        object-fit: cover;
+        object-position: top 50%;
     }
 }
 
@@ -547,6 +554,7 @@ h5 {
 
     &__splide {
         position: relative;
+        margin: 0 auto;
 
         .splide__list {
             padding: 50px 0px!important;
@@ -692,9 +700,9 @@ h5 {
             border: none;
             background: transparent;
             display: flex;
-            align-items: center;
             position: relative;
             padding-right: 40px;
+            position: relative;
 
             h6 {
                 font-weight: 500;
@@ -712,6 +720,9 @@ h5 {
                 width: 25px;
                 height: 25px;
                 transition: transform 0.3s ease;
+                position: absolute;
+                top: 45px;
+                right: 0;
 
                 background-image: url("data:image/svg+xml,%3Csvg width='29' height='29' viewBox='0 0 29 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='13' y='1' width='3' height='27' fill='%23D30000' stroke='%23D30000' stroke-width='2'/%3E%3Crect x='1' y='13' width='27' height='3' fill='%23D30000' stroke='%23D30000' stroke-width='2'/%3E%3C/svg%3E%0A");
             }
@@ -811,6 +822,7 @@ h5 {
                 margin-right: 20px;
                 width: 40px;
                 object-position: center;
+                flex-shrink: 0;
             }
         }
     }
