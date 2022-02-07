@@ -193,6 +193,145 @@
 }
 
 @media screen and (max-width: 1399px) {
+    h2 {
+        font-size: 38px;
+    }
+
+    h4 {
+        font-size: 27px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .header {
+        min-height: 885px;
+
+        &__offer {
+            h1 {
+                font-size: 60px;
+            }
+        }
+
+        &__offer-small {
+            font-size: 47px;
+        }
+    }
+
+    .form {
+        .card-body h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            height: 63px;
+            font-size: 20px;
+        }
+
+        .form-floating_last {
+            margin-bottom: 40px;
+        }
+
+        .form-floating {
+            .form-control {
+                padding: 0 20px;
+                padding-top: 12px;
+            }
+
+            label {
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .benefits {
+        &__card {
+            padding: 30px 20px 20px;
+            min-height: unset;
+
+            img {
+                max-height: 85px;
+            }
+        }
+    }
+
+    .btn-more {
+        font-size: 18px;
+
+        &::after {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    .services {
+        padding-bottom: 170px;
+
+        &__card {
+            padding: 30px 1.5em 25px;
+            min-height: unset;
+        }
+
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .steps {
+        &__card {
+            min-width: 255px;
+            margin-right: 80px;
+        }
+
+        h2 {
+            margin-bottom: 80px;
+        }
+    }
+
+    .reviews {
+        &__splide .splide__arrows {
+            .splide__arrow--next {
+                right: -50px;
+            }
+
+            .splide__arrow--prev {
+                left: -50px;
+            }
+        }
+    }
+
+    .faq {
+        h2 {
+            margin-bottom: 30px;
+
+
+        }
+
+        .custom-accordion__btn {
+            &::after {
+                width: 21px;
+                height: 21px;
+                top: 36px;
+            }
+
+            h6 {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .footer {
+        &__copy {
+            font-size: 14px;
+            opacity: 0.5;
+        }
+
+        &__nav li {
+            font-weight: 600;
+        }
+    }
 
 }
 

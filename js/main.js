@@ -54,6 +54,7 @@ $( document ).ready(function() {
         },
         1399: {
           perPage: 2,
+          width: '90%',
         },
       }
     } );

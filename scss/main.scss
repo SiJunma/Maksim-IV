@@ -152,6 +152,7 @@ h5 {
             background-repeat: no-repeat;
             background-size: contain;
             margin-left: 10px;
+            flex-shrink: 0;
         }
     }
 }
@@ -268,6 +269,10 @@ h5 {
 
     .form-floating {
         margin-bottom: 20px;
+
+        & > label {
+            top: -2px;
+        }
 
         label {
             color: #9E9E9E;
@@ -602,6 +607,8 @@ h5 {
         }
 
         .splide__pagination {
+            padding: 0;
+            
             &__page {
                 background: #FFCECE;
                 margin: 0 8px;
