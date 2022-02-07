@@ -534,9 +534,180 @@
 }
 
 @media screen and (max-width: 767px) {
+    .nav {
+        flex-wrap: wrap;
 
+        &__logo-brand {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+
+            img,svg {
+                margin-right: 0;
+            }
+        }
+
+        &__lang {
+            margin-right: auto;
+        }
+    }
+
+    .header {
+        &__offer h1 {
+            font-size: 34px;
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        &__offer-small {
+            font-size: 27px;
+        }
+    }
+
+    .form {
+        margin-bottom: 70px;
+    }
+
+    .benefits {
+        padding-top: 85px;
+
+        &__bg {
+            margin-top: -87px;
+            margin-bottom: -60px;
+        }
+    } 
+
+    .services {
+        padding-bottom: 80px;
+    }
+
+    .steps {
+        padding-top: 85px;
+        padding-bottom: 25px;
+
+        &__card {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            margin-bottom: 60px;
+        }
+    }
 }
 
 @media screen and (max-width: 576px) {
+    h2 {
+        font-size: 28px;
+    }
 
+    .header {
+        &__offer h1 {
+            font-size: 28px;
+        }
+
+        &__offer-small {
+            font-size: 23px;
+        }
+    }
+
+    .form {
+        .card-body {
+            padding-top: 30px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+
+            h3 {
+                line-height: 120%;
+                font-size: 26px;
+            }
+        }
+    }
+
+    .benefits {
+        &__bg {
+            margin-top: -47px;
+            margin-bottom: -30px;
+        }
+    }
+
+    .consultation {
+        padding-bottom: 150px;
+
+        &__bg {
+            width: 680px;
+        }
+    }
+
+    .reviews {
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .faq {
+        padding-bottom: 60px;
+
+        .custom-accordion__btn h6 {
+            font-size: 24px;
+        }
+
+        .custom-accordion__panel {
+            padding-right: 0;
+        }
+    }
+
+    .contactus {
+        &__list {
+            li {
+                margin-bottom: 30px;
+                font-size: 18px;
+
+                svg,img {
+                    width: 26px;
+                }
+            }
+        }
+
+        &__content h3 {
+            font-size: 32px;
+        }
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .contacts {
+        &__item {
+            font-size: 17px;
+
+            svg,img {
+                max-width: 20px;
+            }
+        }
+    }
+
+    .nav {
+        .vr {
+            margin: auto 9px;   
+            margin-left: 24px;
+        }
+
+        &__lang .form-select {
+            font-size: 17px;
+        }
+    }
+
+    .consultation {
+        &__offer-big {
+            font-size: 36px;
+        } 
+
+        &__offer-small {
+            font-size: 26px;
+        }
+    }
+
+    .footer__nav {
+        flex-direction: column;
+    }
 }

@@ -49,20 +49,40 @@ $( document ).ready(function() {
       gap: '2rem',
       type: 'loop',
       breakpoints: {
+
         1599: {
           width: '90%',
           perMove: 1,
+          arrows: true,
         },
         1399: {
+          perPage: 3,
+          width: '90%',
+          perMove: 1,
+          arrows: true,
+        },
+
+        1199: {
           perPage: 2,
           width: '90%',
           perMove: 1,
+          arrows: true,
         },
+
         991: {
           perPage: 1,
           width: 'calc(90% - 30px)',
           perMove: 1,
           autoHeight: true,
+          arrows: true,
+        },
+
+        575: {
+          perPage: 1,
+          width: '100%',
+          perMove: 1,
+          autoHeight: true,
+          arrows: false,
         },
       }
     } );
